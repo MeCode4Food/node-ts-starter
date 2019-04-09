@@ -1,0 +1,43 @@
+{
+  "name": "ts-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec \"ts-node\" -- index.ts",
+    "build": "tsc",
+    "prod": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.123",
+    "@types/mongoose": "^5.3.24",
+    "@types/morgan": "^1.7.35",
+    "eslint-plugin-typescript": "^0.14.0",
+    "standard": "^12.0.1",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.4.1",
+    "typescript-eslint-parser": "^22.0.0"
+  },
+  "standard": {
+    "parser": "typescript-eslint-parser",
+    "plugins": [
+      "typescript"
+    ]
+  },
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/express": "^4.16.1",
+    "@types/signale": "^1.2.1",
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.2",
+    "dotenv-safe": "^6.1.0",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.22",
+    "morgan": "^1.9.1",
+    "signale": "^1.4.0"
+  }
+}
