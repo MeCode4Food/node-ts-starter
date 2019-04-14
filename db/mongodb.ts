@@ -14,9 +14,9 @@ mongoose.connect(uri, { useNewUrlParser: true }, (err: any) => {
 })
 
 const itemSchema = new mongoose.Schema({
-  id: 'number',
   name: 'string',
-  price: 'number'
+  price: 'string',
+  colour: 'string'
 })
 
 interface IItemModel extends Document, IItem {}

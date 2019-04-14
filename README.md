@@ -16,7 +16,10 @@ Run `npm run prod` to launch the compiled Node code.
 ## Libraries used
 - Winston: Logger
 - Mongoose: MongoDB Connector
-- 
+- TS-Node: Node Runtime for TypeScript
+- Signale: Simplified console logger
+- Chalk: Coloured console logging
+- Node Cache: Caching for incoming request
 
 ## Remarks on TypeScript's Type Coverage
 While popular NPM packages do have type coverage for typescript by installing the package @types/\<package name>, It is far from perfect and requires some elbow grease (self definitions) for it to work right.
